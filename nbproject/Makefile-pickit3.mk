@@ -112,19 +112,19 @@ ${OBJECTDIR}/_ext/1248472724/compiler.o: ../machikaniaz.X/source/./compiler.c  n
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/compiler.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/compiler.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/compiler.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/compiler.o.d" -o ${OBJECTDIR}/_ext/1248472724/compiler.o ../machikaniaz.X/source/./compiler.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/compiler.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/compiler.o.d" -o ${OBJECTDIR}/_ext/1248472724/compiler.o ../machikaniaz.X/source/./compiler.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/debug.o: ../machikaniaz.X/source/./debug.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/debug.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/debug.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/debug.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/debug.o.d" -o ${OBJECTDIR}/_ext/1248472724/debug.o ../machikaniaz.X/source/./debug.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/debug.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/debug.o.d" -o ${OBJECTDIR}/_ext/1248472724/debug.o ../machikaniaz.X/source/./debug.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/document.o: ../machikaniaz.X/source/./document.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/document.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/document.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/document.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/document.o.d" -o ${OBJECTDIR}/_ext/1248472724/document.o ../machikaniaz.X/source/./document.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/document.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/document.o.d" -o ${OBJECTDIR}/_ext/1248472724/document.o ../machikaniaz.X/source/./document.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/editor.o: ../machikaniaz.X/source/./editor.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
@@ -136,85 +136,85 @@ ${OBJECTDIR}/_ext/1248472724/error.o: ../machikaniaz.X/source/./error.c  nbproje
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/error.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/error.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/error.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/error.o.d" -o ${OBJECTDIR}/_ext/1248472724/error.o ../machikaniaz.X/source/./error.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/error.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/error.o.d" -o ${OBJECTDIR}/_ext/1248472724/error.o ../machikaniaz.X/source/./error.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/exception.o: ../machikaniaz.X/source/./exception.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/exception.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/exception.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/exception.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/exception.o.d" -o ${OBJECTDIR}/_ext/1248472724/exception.o ../machikaniaz.X/source/./exception.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/exception.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/exception.o.d" -o ${OBJECTDIR}/_ext/1248472724/exception.o ../machikaniaz.X/source/./exception.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/file.o: ../machikaniaz.X/source/./file.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/file.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/file.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/file.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/file.o.d" -o ${OBJECTDIR}/_ext/1248472724/file.o ../machikaniaz.X/source/./file.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/file.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/file.o.d" -o ${OBJECTDIR}/_ext/1248472724/file.o ../machikaniaz.X/source/./file.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/float.o: ../machikaniaz.X/source/./float.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/float.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/float.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/float.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/float.o.d" -o ${OBJECTDIR}/_ext/1248472724/float.o ../machikaniaz.X/source/./float.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/float.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/float.o.d" -o ${OBJECTDIR}/_ext/1248472724/float.o ../machikaniaz.X/source/./float.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/function.o: ../machikaniaz.X/source/./function.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/function.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/function.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/function.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/function.o.d" -o ${OBJECTDIR}/_ext/1248472724/function.o ../machikaniaz.X/source/./function.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/function.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/function.o.d" -o ${OBJECTDIR}/_ext/1248472724/function.o ../machikaniaz.X/source/./function.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/globalvars.o: ../machikaniaz.X/source/./globalvars.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/globalvars.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/globalvars.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/globalvars.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/globalvars.o.d" -o ${OBJECTDIR}/_ext/1248472724/globalvars.o ../machikaniaz.X/source/./globalvars.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/globalvars.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/globalvars.o.d" -o ${OBJECTDIR}/_ext/1248472724/globalvars.o ../machikaniaz.X/source/./globalvars.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/keyinput.o: ../machikaniaz.X/source/./keyinput.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/keyinput.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/keyinput.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/keyinput.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/keyinput.o.d" -o ${OBJECTDIR}/_ext/1248472724/keyinput.o ../machikaniaz.X/source/./keyinput.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/keyinput.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/keyinput.o.d" -o ${OBJECTDIR}/_ext/1248472724/keyinput.o ../machikaniaz.X/source/./keyinput.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/library.o: ../machikaniaz.X/source/./library.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/library.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/library.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/library.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/library.o.d" -o ${OBJECTDIR}/_ext/1248472724/library.o ../machikaniaz.X/source/./library.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/library.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/library.o.d" -o ${OBJECTDIR}/_ext/1248472724/library.o ../machikaniaz.X/source/./library.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/linker.o: ../machikaniaz.X/source/./linker.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/linker.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/linker.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/linker.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/linker.o.d" -o ${OBJECTDIR}/_ext/1248472724/linker.o ../machikaniaz.X/source/./linker.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/linker.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/linker.o.d" -o ${OBJECTDIR}/_ext/1248472724/linker.o ../machikaniaz.X/source/./linker.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/main.o: ../machikaniaz.X/source/./main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/main.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/main.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/main.o.d" -o ${OBJECTDIR}/_ext/1248472724/main.o ../machikaniaz.X/source/./main.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/main.o.d" -o ${OBJECTDIR}/_ext/1248472724/main.o ../machikaniaz.X/source/./main.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/memory.o: ../machikaniaz.X/source/./memory.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/memory.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/memory.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/memory.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/memory.o.d" -o ${OBJECTDIR}/_ext/1248472724/memory.o ../machikaniaz.X/source/./memory.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/memory.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/memory.o.d" -o ${OBJECTDIR}/_ext/1248472724/memory.o ../machikaniaz.X/source/./memory.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/music.o: ../machikaniaz.X/source/./music.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/music.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/music.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/music.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/music.o.d" -o ${OBJECTDIR}/_ext/1248472724/music.o ../machikaniaz.X/source/./music.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/music.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/music.o.d" -o ${OBJECTDIR}/_ext/1248472724/music.o ../machikaniaz.X/source/./music.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/operator.o: ../machikaniaz.X/source/./operator.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/operator.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/operator.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/operator.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/operator.o.d" -o ${OBJECTDIR}/_ext/1248472724/operator.o ../machikaniaz.X/source/./operator.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/operator.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/operator.o.d" -o ${OBJECTDIR}/_ext/1248472724/operator.o ../machikaniaz.X/source/./operator.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/run.o: ../machikaniaz.X/source/./run.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/run.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/run.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/run.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/run.o.d" -o ${OBJECTDIR}/_ext/1248472724/run.o ../machikaniaz.X/source/./run.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/run.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/run.o.d" -o ${OBJECTDIR}/_ext/1248472724/run.o ../machikaniaz.X/source/./run.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/statement.o: ../machikaniaz.X/source/./statement.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
@@ -226,38 +226,38 @@ ${OBJECTDIR}/_ext/1248472724/string.o: ../machikaniaz.X/source/./string.c  nbpro
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/string.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/string.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/string.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/string.o.d" -o ${OBJECTDIR}/_ext/1248472724/string.o ../machikaniaz.X/source/./string.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/string.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/string.o.d" -o ${OBJECTDIR}/_ext/1248472724/string.o ../machikaniaz.X/source/./string.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/value.o: ../machikaniaz.X/source/./value.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/value.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/value.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/value.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/value.o.d" -o ${OBJECTDIR}/_ext/1248472724/value.o ../machikaniaz.X/source/./value.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/value.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/value.o.d" -o ${OBJECTDIR}/_ext/1248472724/value.o ../machikaniaz.X/source/./value.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/618058229/fontx2.o: ../machikaniaz.X/source/fontx2.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/618058229" 
 	@${RM} ${OBJECTDIR}/_ext/618058229/fontx2.o.d 
 	@${RM} ${OBJECTDIR}/_ext/618058229/fontx2.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/618058229/fontx2.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/618058229/fontx2.o.d" -o ${OBJECTDIR}/_ext/618058229/fontx2.o ../machikaniaz.X/source/fontx2.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/618058229/fontx2.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1   -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/618058229/fontx2.o.d" -o ${OBJECTDIR}/_ext/618058229/fontx2.o ../machikaniaz.X/source/fontx2.c   -DNOBOOTLOADER
 	
 else
 ${OBJECTDIR}/_ext/1248472724/compiler.o: ../machikaniaz.X/source/./compiler.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/compiler.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/compiler.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/compiler.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/compiler.o.d" -o ${OBJECTDIR}/_ext/1248472724/compiler.o ../machikaniaz.X/source/./compiler.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/compiler.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/compiler.o.d" -o ${OBJECTDIR}/_ext/1248472724/compiler.o ../machikaniaz.X/source/./compiler.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/debug.o: ../machikaniaz.X/source/./debug.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/debug.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/debug.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/debug.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/debug.o.d" -o ${OBJECTDIR}/_ext/1248472724/debug.o ../machikaniaz.X/source/./debug.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/debug.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/debug.o.d" -o ${OBJECTDIR}/_ext/1248472724/debug.o ../machikaniaz.X/source/./debug.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/document.o: ../machikaniaz.X/source/./document.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/document.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/document.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/document.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/document.o.d" -o ${OBJECTDIR}/_ext/1248472724/document.o ../machikaniaz.X/source/./document.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/document.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/document.o.d" -o ${OBJECTDIR}/_ext/1248472724/document.o ../machikaniaz.X/source/./document.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/editor.o: ../machikaniaz.X/source/./editor.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
@@ -269,85 +269,85 @@ ${OBJECTDIR}/_ext/1248472724/error.o: ../machikaniaz.X/source/./error.c  nbproje
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/error.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/error.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/error.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/error.o.d" -o ${OBJECTDIR}/_ext/1248472724/error.o ../machikaniaz.X/source/./error.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/error.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/error.o.d" -o ${OBJECTDIR}/_ext/1248472724/error.o ../machikaniaz.X/source/./error.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/exception.o: ../machikaniaz.X/source/./exception.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/exception.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/exception.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/exception.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/exception.o.d" -o ${OBJECTDIR}/_ext/1248472724/exception.o ../machikaniaz.X/source/./exception.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/exception.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/exception.o.d" -o ${OBJECTDIR}/_ext/1248472724/exception.o ../machikaniaz.X/source/./exception.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/file.o: ../machikaniaz.X/source/./file.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/file.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/file.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/file.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/file.o.d" -o ${OBJECTDIR}/_ext/1248472724/file.o ../machikaniaz.X/source/./file.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/file.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/file.o.d" -o ${OBJECTDIR}/_ext/1248472724/file.o ../machikaniaz.X/source/./file.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/float.o: ../machikaniaz.X/source/./float.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/float.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/float.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/float.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/float.o.d" -o ${OBJECTDIR}/_ext/1248472724/float.o ../machikaniaz.X/source/./float.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/float.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/float.o.d" -o ${OBJECTDIR}/_ext/1248472724/float.o ../machikaniaz.X/source/./float.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/function.o: ../machikaniaz.X/source/./function.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/function.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/function.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/function.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/function.o.d" -o ${OBJECTDIR}/_ext/1248472724/function.o ../machikaniaz.X/source/./function.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/function.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/function.o.d" -o ${OBJECTDIR}/_ext/1248472724/function.o ../machikaniaz.X/source/./function.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/globalvars.o: ../machikaniaz.X/source/./globalvars.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/globalvars.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/globalvars.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/globalvars.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/globalvars.o.d" -o ${OBJECTDIR}/_ext/1248472724/globalvars.o ../machikaniaz.X/source/./globalvars.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/globalvars.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/globalvars.o.d" -o ${OBJECTDIR}/_ext/1248472724/globalvars.o ../machikaniaz.X/source/./globalvars.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/keyinput.o: ../machikaniaz.X/source/./keyinput.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/keyinput.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/keyinput.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/keyinput.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/keyinput.o.d" -o ${OBJECTDIR}/_ext/1248472724/keyinput.o ../machikaniaz.X/source/./keyinput.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/keyinput.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/keyinput.o.d" -o ${OBJECTDIR}/_ext/1248472724/keyinput.o ../machikaniaz.X/source/./keyinput.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/library.o: ../machikaniaz.X/source/./library.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/library.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/library.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/library.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/library.o.d" -o ${OBJECTDIR}/_ext/1248472724/library.o ../machikaniaz.X/source/./library.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/library.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/library.o.d" -o ${OBJECTDIR}/_ext/1248472724/library.o ../machikaniaz.X/source/./library.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/linker.o: ../machikaniaz.X/source/./linker.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/linker.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/linker.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/linker.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/linker.o.d" -o ${OBJECTDIR}/_ext/1248472724/linker.o ../machikaniaz.X/source/./linker.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/linker.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/linker.o.d" -o ${OBJECTDIR}/_ext/1248472724/linker.o ../machikaniaz.X/source/./linker.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/main.o: ../machikaniaz.X/source/./main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/main.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/main.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/main.o.d" -o ${OBJECTDIR}/_ext/1248472724/main.o ../machikaniaz.X/source/./main.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/main.o.d" -o ${OBJECTDIR}/_ext/1248472724/main.o ../machikaniaz.X/source/./main.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/memory.o: ../machikaniaz.X/source/./memory.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/memory.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/memory.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/memory.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/memory.o.d" -o ${OBJECTDIR}/_ext/1248472724/memory.o ../machikaniaz.X/source/./memory.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/memory.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/memory.o.d" -o ${OBJECTDIR}/_ext/1248472724/memory.o ../machikaniaz.X/source/./memory.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/music.o: ../machikaniaz.X/source/./music.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/music.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/music.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/music.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/music.o.d" -o ${OBJECTDIR}/_ext/1248472724/music.o ../machikaniaz.X/source/./music.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/music.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/music.o.d" -o ${OBJECTDIR}/_ext/1248472724/music.o ../machikaniaz.X/source/./music.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/operator.o: ../machikaniaz.X/source/./operator.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/operator.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/operator.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/operator.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/operator.o.d" -o ${OBJECTDIR}/_ext/1248472724/operator.o ../machikaniaz.X/source/./operator.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/operator.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/operator.o.d" -o ${OBJECTDIR}/_ext/1248472724/operator.o ../machikaniaz.X/source/./operator.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/run.o: ../machikaniaz.X/source/./run.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/run.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/run.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/run.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/run.o.d" -o ${OBJECTDIR}/_ext/1248472724/run.o ../machikaniaz.X/source/./run.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/run.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/run.o.d" -o ${OBJECTDIR}/_ext/1248472724/run.o ../machikaniaz.X/source/./run.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/statement.o: ../machikaniaz.X/source/./statement.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
@@ -359,19 +359,19 @@ ${OBJECTDIR}/_ext/1248472724/string.o: ../machikaniaz.X/source/./string.c  nbpro
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/string.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/string.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/string.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/string.o.d" -o ${OBJECTDIR}/_ext/1248472724/string.o ../machikaniaz.X/source/./string.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/string.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/string.o.d" -o ${OBJECTDIR}/_ext/1248472724/string.o ../machikaniaz.X/source/./string.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/1248472724/value.o: ../machikaniaz.X/source/./value.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/1248472724" 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/value.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1248472724/value.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/value.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/value.o.d" -o ${OBJECTDIR}/_ext/1248472724/value.o ../machikaniaz.X/source/./value.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1248472724/value.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/1248472724/value.o.d" -o ${OBJECTDIR}/_ext/1248472724/value.o ../machikaniaz.X/source/./value.c   -DNOBOOTLOADER
 	
 ${OBJECTDIR}/_ext/618058229/fontx2.o: ../machikaniaz.X/source/fontx2.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/_ext/618058229" 
 	@${RM} ${OBJECTDIR}/_ext/618058229/fontx2.o.d 
 	@${RM} ${OBJECTDIR}/_ext/618058229/fontx2.o 
-	@${FIXDEPS} "${OBJECTDIR}/_ext/618058229/fontx2.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -Os -MMD -MF "${OBJECTDIR}/_ext/618058229/fontx2.o.d" -o ${OBJECTDIR}/_ext/618058229/fontx2.o ../machikaniaz.X/source/fontx2.c   -DNOBOOTLOADER
+	@${FIXDEPS} "${OBJECTDIR}/_ext/618058229/fontx2.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c ${MP_CC} $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"source/" -I"./" -Os -MMD -MF "${OBJECTDIR}/_ext/618058229/fontx2.o.d" -o ${OBJECTDIR}/_ext/618058229/fontx2.o ../machikaniaz.X/source/fontx2.c   -DNOBOOTLOADER
 	
 endif
 

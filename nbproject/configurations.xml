@@ -16,6 +16,8 @@
       <itemPath>../machikaniaz.X/source/./SDFSIO.h</itemPath>
       <itemPath>source/misakifont.h</itemPath>
       <itemPath>../machikaniaz.X/source/kanzi.h</itemPath>
+      <itemPath>source/editormsgdefinition.h</itemPath>
+      <itemPath>source/editormsgjpn.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -65,7 +67,7 @@
     <conf name="default" type="2">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <targetDevice>PIC32MX150F128B</targetDevice>
+        <targetDevice>PIC32MX170F256B</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
         <platformTool>PICkit3PlatformTool</platformTool>
@@ -214,7 +216,7 @@
         <property key="use-indirect-calls" value="false"/>
       </C32CPP>
       <C32Global>
-        <property key="common-include-directories" value=""/>
+        <property key="common-include-directories" value=".;source"/>
         <property key="gp-relative-option" value=""/>
         <property key="legacy-libc" value="false"/>
         <property key="relaxed-math" value="false"/>
@@ -293,7 +295,9 @@
         <property key="programoptions.uselvpprogramming" value="false"/>
         <property key="voltagevalue" value="3.25"/>
       </PICkit3PlatformTool>
-      <item path="source/p32MX170F256B.ld" ex="true" overriding="false">
+      <item path="source/App_32MX170F256B.ld" ex="true" overriding="false">
+      </item>
+      <item path="source/p32MX170F256B.ld" ex="false" overriding="false">
         <C32>
         </C32>
         <C32-AR>
@@ -411,7 +415,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories" value="source/;./"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="isolate-each-function" value="false"/>
         <property key="make-warnings-into-errors" value="false"/>
@@ -505,7 +509,6 @@
         <property key="UART1" value="true"/>
         <property key="UART2" value="true"/>
         <property key="USB" value="true"/>
-        <property key="firmware.download.all" value="false"/>
         <property key="hwtoolclock.frcindebug" value="false"/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="true"/>
